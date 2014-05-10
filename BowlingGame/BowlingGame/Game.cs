@@ -10,7 +10,7 @@ namespace BowlingGame
     {
         public int Score(int[] pins)
         {
-            return 1;
+            return pins.Sum();
         }
     }
 }
